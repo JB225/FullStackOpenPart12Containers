@@ -14,7 +14,9 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
       {todos.map(todo => {
         const doneInfo = (
           <>
-            <span>This todo is done</span>
+            <span>
+              This todo is done
+            </span>
             <span>
               <button onClick={onClickDelete(todo)}> Delete </button>
             </span>
